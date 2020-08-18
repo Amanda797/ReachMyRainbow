@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Levels.unity
+    guid: d579bfa46f0c30f4f806649a4d6bcc36
+  - enabled: 1
+    path: Assets/Scenes/Primary Colors.unity
+    guid: 8c00e73c0f765704dba9a4d08a781971
+  - enabled: 1
+    path: Assets/Scenes/Red.unity
+    guid: d84fab4e3eac6a94d895a6132e071d80
+  - enabled: 1
+    path: Assets/Scenes/Yellow.unity
+    guid: 170030d921ef51f4184faab8df88d593
+  - enabled: 1
+    path: Assets/Scenes/Blue.unity
+    guid: 3e74ae79424f4334892d3c13d3d5dad5
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: d2facb557fb640d46a27eba6680903bc
+  - enabled: 1
+    path: Assets/Scenes/Coloring L1 Duck.unity
+    guid: 4bba5e509abf24241b570d4db7024862
+  - enabled: 1
+    path: Assets/Scenes/Coloring L1 Macaw.unity
+    guid: bb32623b261a266499f66d6f8fc11632
+  - enabled: 1
+    path: Assets/Scenes/Coloring L1 bee.unity
+    guid: a14d624a6d2fb86429cb6ab7b8524ead
+  m_configObjects: {}
