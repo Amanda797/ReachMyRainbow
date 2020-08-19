@@ -459,7 +459,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d7530a09d95a171479c9b3561a5f2c1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b51a34ac0473c044f9e0b1aaae70f674, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 327225c4ccadefa42825ccd3ab996db7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b657c6786112eff44b228dd9012923a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -715,7 +715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c6ad304dc751b34db8b208efef52596, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 414a74116604ed249ad7eee9d9ec56a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
