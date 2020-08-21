@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f6b39073f14664bad042668a140b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeColor: blue
+  myColor: 1
 --- !u!58 &114951565
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -231,86 +231,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.695
---- !u!1 &190786035
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 190786036}
-  - component: {fileID: 190786037}
-  m_Layer: 0
-  m_Name: duck linear - new
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &190786036
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190786035}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.632751, y: 3.7944598, z: 0}
-  m_LocalScale: {x: 3.2360237, y: 3.301696, z: 1}
-  m_Children: []
-  m_Father: {fileID: 409153429}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &190786037
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190786035}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 670c0e0a899ee814c8420d925e98bdd8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &211172350
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,8 +310,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.56, y: 4.49, z: 5.200404}
   m_LocalScale: {x: 0.7179527, y: 0.71889925, z: 1}
-  m_Children:
-  - {fileID: 1473098237}
+  m_Children: []
   m_Father: {fileID: 1211873588}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -433,8 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 2
-  coloredSprite: {fileID: 21300000, guid: 3c63bccdc3422d64fb72e13a044d3846, type: 3}
+  myColor: 3
+  coloredSprite: {fileID: 21300000, guid: d06dfc9ba8421324681b1e7e230693ba, type: 3}
   audiosource: {fileID: 211172355}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
@@ -672,7 +591,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6786b1d14f4212640adbcaaa7928fbd3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 670c0e0a899ee814c8420d925e98bdd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -693,8 +612,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.53, y: 0.53, z: 5.200404}
   m_LocalScale: {x: 0.30902123, y: 0.30287465, z: 1}
-  m_Children:
-  - {fileID: 190786036}
+  m_Children: []
   m_Father: {fileID: 1211873588}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -736,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 1
+  myColor: 2
   coloredSprite: {fileID: 21300000, guid: 7d03bee792b150a45ba8f8f184f087d9, type: 3}
   audiosource: {fileID: 409153432}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
@@ -958,7 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 2
+  myColor: 3
   coloredSprite: {fileID: 21300000, guid: 2a451db3a41580b418884c3efaccb8c5, type: 3}
   audiosource: {fileID: 506648212}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
@@ -1091,6 +1009,7 @@ MonoBehaviour:
   selectedColor: {r: 0, g: 0, b: 0, a: 0}
   selectedColorType: 0
   toContinue: 0
+  colorMixer: {fileID: 0}
 --- !u!4 &583020371
 Transform:
   m_ObjectHideFlags: 0
@@ -1229,7 +1148,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6869724940dec4944800574bd335ebe8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e8bd7706d08763479b88d77d0759254, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1250,8 +1169,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.76, y: 4.844, z: 5.200404}
   m_LocalScale: {x: 0.24179131, y: 0.30295667, z: 1}
-  m_Children:
-  - {fileID: 1738576267}
+  m_Children: []
   m_Father: {fileID: 1211873588}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1293,7 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 0
+  myColor: 1
   coloredSprite: {fileID: 21300000, guid: ff7d35a87fe14d340b8d5369c1998aa3, type: 3}
   audiosource: {fileID: 1087259402}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
@@ -1556,7 +1474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f6b39073f14664bad042668a140b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeColor: yellow
+  myColor: 2
 --- !u!58 &1273419304
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1694,7 +1612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 0
+  myColor: 1
   coloredSprite: {fileID: 21300000, guid: 5925d0010a7254a4c82e471fa77e045a, type: 3}
   audiosource: {fileID: 1308103018}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
@@ -1829,86 +1747,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1473098236
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1473098237}
-  - component: {fileID: 1473098238}
-  m_Layer: 0
-  m_Name: Apple
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1473098237
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473098236}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.352954, y: -3.9098024, z: 0}
-  m_LocalScale: {x: 1.3928493, y: 1.3910154, z: 1}
-  m_Children: []
-  m_Father: {fileID: 211172352}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1473098238
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473098236}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d06dfc9ba8421324681b1e7e230693ba, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.2, y: 4.72}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1570326306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,7 +1868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 1
+  myColor: 2
   coloredSprite: {fileID: 21300000, guid: d47652fd1bb19dd45a631c0451bf0f53, type: 3}
   audiosource: {fileID: 1570326311}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
@@ -2251,86 +2089,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1738576266
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1738576267}
-  - component: {fileID: 1738576268}
-  m_Layer: 0
-  m_Name: whale linear - new
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1738576267
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738576266}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.77384, y: -10.446228, z: 0}
-  m_LocalScale: {x: 4.135798, y: 3.300802, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1087259399}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1738576268
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738576266}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9e8bd7706d08763479b88d77d0759254, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1759940311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,7 +2390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 1
+  myColor: 2
   coloredSprite: {fileID: 21300000, guid: 9930ead838c9c9e43806fbb01fb6e7fb, type: 3}
   audiosource: {fileID: 1824412438}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
@@ -2733,6 +2491,86 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1992090837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1992090839}
+  - component: {fileID: 1992090838}
+  m_Layer: 0
+  m_Name: LessonBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1992090838
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992090837}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a2fd36f4fe70c8a44a817227802daf51, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1992090839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992090837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2524178, y: -0.05718589, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000649994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,7 +2665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f6b39073f14664bad042668a140b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeColor: red
+  myColor: 3
 --- !u!58 &2000649998
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2965,7 +2803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1e6244a15aa345ac1198bd59dbacb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myColor: 2
+  myColor: 3
   coloredSprite: {fileID: 21300000, guid: 9b16b563e76f0454b984baa03653b136, type: 3}
   audiosource: {fileID: 2070574968}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}

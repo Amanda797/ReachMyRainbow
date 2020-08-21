@@ -30,5 +30,20 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
+    public void Options()
+    {
+        
+    }
+
+    public void Credits()
+    {
+
+    }
+
+    public void OnApplicationQuit()
+    {
+        
+    }
+
 
 }

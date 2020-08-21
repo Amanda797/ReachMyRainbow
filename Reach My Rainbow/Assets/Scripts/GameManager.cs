@@ -9,28 +9,17 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public Color selectedColor = Color.clear;
 
-    public enum colorType { Blue, Yellow, Red }
+    public enum colorType { None, Blue, Yellow, Red, Purple, Green, Orange, Black, White}
     public colorType selectedColorType;
 
     public int toContinue;
 
+    public ColorMixer colorMixer;
 
-    public void setActiveColor(string Color)
+
+    public void setActiveColor(GameManager.colorType newColorType)
     {
-        switch (Color)
-        {
-            case "blue":
-                selectedColorType = colorType.Blue;
-                break;
-
-            case "red":
-                selectedColorType = colorType.Red;
-                break;
-
-            case "yellow":
-                selectedColorType = colorType.Yellow;
-                break;
-        }
+        selectedColorType = newColorType;
     }
 
     private void Awake()

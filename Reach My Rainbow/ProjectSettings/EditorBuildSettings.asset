@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Coloring L1 bee.unity
     guid: a14d624a6d2fb86429cb6ab7b8524ead
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: e848ed059033ef8418f25df1be90f249
   m_configObjects: {}
