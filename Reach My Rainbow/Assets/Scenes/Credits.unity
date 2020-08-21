@@ -598,16 +598,16 @@ MonoBehaviour:
   m_text: "Project Lead - Aubrey Dahl\n \nContributions:\nAmanda Grose\nDavid Schafers\nJaime
     Zamora\nChristopher Parness\nAllison Tyrsdottir\nSamantha Jaros"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fa6705ec840023d4b92a6619fc705ae0, type: 2}
-  m_sharedMaterial: {fileID: 2398549757306269262, guid: fa6705ec840023d4b92a6619fc705ae0,
+  m_fontAsset: {fileID: 11400000, guid: 695ca5af710a7cf40b72c9249248a238, type: 2}
+  m_sharedMaterial: {fileID: 1967560303903811492, guid: 695ca5af710a7cf40b72c9249248a238,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280420696
+  m_fontColor: {r: 0.34509805, g: 0.03529412, b: 0.13333334, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
