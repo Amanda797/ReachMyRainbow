@@ -7,10 +7,11 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public void LoadNextScene()
-
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
+        //When Play is clicked, it loads Lesson Select Scene
+        //Debug.Log("I am loading next scene.");
 
     }
 
@@ -20,6 +21,8 @@ public class SceneLoader : MonoBehaviour
         {
             Application.Quit();
         }
+
+        //Debug.Log("I am updating scene.");
     }
 
     public void OnMouseDown()
