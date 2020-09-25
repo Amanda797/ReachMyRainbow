@@ -33,20 +33,11 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    public void Options()
+    public void LoadNewScene(int sceneNumber)
     {
-        
+        SceneManager.LoadScene(sceneNumber);
     }
 
-    public void Credits()
-    {
-
-    }
-
-    public void OnApplicationQuit()
-    {
-        
-    }
 
 
 }
