@@ -32,10 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Coloring L1 Duck.unity
     guid: 4bba5e509abf24241b570d4db7024862
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Coloring L1 Macaw.unity
     guid: bb32623b261a266499f66d6f8fc11632
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Coloring L1 bee.unity
     guid: a14d624a6d2fb86429cb6ab7b8524ead
   - enabled: 1
