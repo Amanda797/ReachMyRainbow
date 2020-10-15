@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 485097668}
   - component: {fileID: 485097667}
   m_Layer: 5
-  m_Name: Border
+  m_Name: Page Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 711395238}
   - component: {fileID: 711395237}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Palette Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 1116027101}
   - component: {fileID: 1116027100}
   m_Layer: 5
-  m_Name: Coloring Page
+  m_Name: Coloring Page Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2267,7 +2267,7 @@ GameObject:
   - component: {fileID: 1298665890}
   - component: {fileID: 1298665889}
   m_Layer: 5
-  m_Name: Bee Pieces
+  m_Name: Bee Pieces Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

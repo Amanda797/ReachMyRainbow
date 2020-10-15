@@ -19,6 +19,6 @@ public class ColorPicker : MonoBehaviour
             ColorManager.colormanager.location2.colorType = GameManager.colorType.None;
         }
 
-
     }
+    
 }
