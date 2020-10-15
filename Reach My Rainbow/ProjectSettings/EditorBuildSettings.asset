@@ -6,45 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
+    path: Assets/Scenes/Menu Scenes/StartMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Levels.unity
+    path: Assets/Scenes/Menu Scenes/Levels.unity
     guid: d579bfa46f0c30f4f806649a4d6bcc36
   - enabled: 1
-    path: Assets/Scenes/Primary Colors.unity
+    path: Assets/Scenes/Level 1 Scenes/Primary Colors.unity
     guid: 8c00e73c0f765704dba9a4d08a781971
   - enabled: 1
-    path: Assets/Scenes/Red.unity
+    path: Assets/Scenes/Level 1 Scenes/Red.unity
     guid: d84fab4e3eac6a94d895a6132e071d80
   - enabled: 1
-    path: Assets/Scenes/Yellow.unity
+    path: Assets/Scenes/Level 1 Scenes/Yellow.unity
     guid: 170030d921ef51f4184faab8df88d593
   - enabled: 1
-    path: Assets/Scenes/Blue.unity
+    path: Assets/Scenes/Level 1 Scenes/Blue.unity
     guid: 3e74ae79424f4334892d3c13d3d5dad5
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Level 1 Scenes/Level1.unity
     guid: d2facb557fb640d46a27eba6680903bc
   - enabled: 1
-    path: Assets/Scenes/ChoosePage1.unity
+    path: Assets/Scenes/Level 1 Scenes/ChoosePage1.unity
     guid: bc970a3b69d316749acabed10e3c1b32
   - enabled: 1
-    path: Assets/Scenes/Duck Coloring Page.unity
+    path: Assets/Scenes/Level 1 Scenes/Duck Coloring Page.unity
     guid: 4bba5e509abf24241b570d4db7024862
   - enabled: 1
-    path: Assets/Scenes/Bee Coloring Page.unity
+    path: Assets/Scenes/Level 1 Scenes/Bee Coloring Page.unity
     guid: f5f7b8793c725ad489ad8ecc2407528f
   - enabled: 1
-    path: Assets/Scenes/Macaw Coloring Page.unity
+    path: Assets/Scenes/Level 1 Scenes/Macaw Coloring Page.unity
     guid: d8e9c266edf142941b18dfded6668128
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
+    path: Assets/Scenes/Level 2 Scenes/Level 2.unity
     guid: e848ed059033ef8418f25df1be90f249
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/Menu Scenes/Credits.unity
     guid: 972059841d4fe4545b7548441f323a33
   - enabled: 1
-    path: Assets/Scenes/Options.unity
+    path: Assets/Scenes/Menu Scenes/Options.unity
     guid: 3f956b3f97ed9cc459b35a41568021f9
   m_configObjects: {}
