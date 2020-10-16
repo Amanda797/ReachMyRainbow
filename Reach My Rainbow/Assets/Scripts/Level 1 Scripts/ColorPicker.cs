@@ -6,6 +6,11 @@ public class ColorPicker : MonoBehaviour
 
 {
     public GameManager.colorType myColor;
+    AudioSource audioData;
+    private void Start()
+        {
+        audioData = GetComponent<AudioSource>();
+        }
     private void OnMouseDown()
     {
         //set the color to use
@@ -17,8 +22,10 @@ public class ColorPicker : MonoBehaviour
             Destroy(ColorManager.colormanager.location2.colorOnLocation);
             ColorManager.colormanager.location.colorType = GameManager.colorType.None;
             ColorManager.colormanager.location2.colorType = GameManager.colorType.None;
-        }
 
+            
+        }
+        audioData.Play(0);
     }
     
 }
