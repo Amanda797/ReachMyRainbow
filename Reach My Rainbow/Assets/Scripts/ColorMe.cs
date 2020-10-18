@@ -14,7 +14,7 @@ public class ColorMe : MonoBehaviour
     public Sprite Black;
     public Sprite White;
 
-
+    AudioSource audioData;
 
 
 
@@ -23,6 +23,7 @@ public class ColorMe : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioData = GetComponent<AudioSource>();
     }
 
 
@@ -30,6 +31,7 @@ public class ColorMe : MonoBehaviour
     {
         if (GameManager.instance.selectedColor != null)
         {
+            audioData.Play(0);
             switch (GameManager.instance.selectedColorType)
             {
                 case GameManager.colorType.Black:

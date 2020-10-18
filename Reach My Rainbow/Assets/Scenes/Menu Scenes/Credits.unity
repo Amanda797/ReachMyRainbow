@@ -335,13 +335,13 @@ MonoBehaviour:
 
     John Leddon
 
+    Zachary Driscoll
+
+    Jonathon Sherwood
+
     Christian Delaune
 
     David Schafers
-
-    Jaime Zamora
-
-    Christopher Parness
 
 '
   m_isRightToLeft: 0
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 65.630066}
   m_textInfo:
     textComponent: {fileID: 166386922}
-    characterCount: 91
+    characterCount: 93
     spriteCount: 0
     spaceCount: 12
     wordCount: 12
@@ -1287,11 +1287,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Allison Tyrsdottir
+  m_text: 'Jaime Zamora
 
-    Zachary Driscoll
+    Christopher Parness
 
-    Jonathon Sherwood'
+    Allison Tyrsdottir'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 695ca5af710a7cf40b72c9249248a238, type: 2}
   m_sharedMaterial: {fileID: 1967560303903811492, guid: 695ca5af710a7cf40b72c9249248a238,
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1658908401}
-    characterCount: 53
+    characterCount: 51
     spriteCount: 0
     spaceCount: 5
     wordCount: 6

@@ -30,14 +30,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 Scenes/ChoosePage1.unity
     guid: bc970a3b69d316749acabed10e3c1b32
   - enabled: 1
-    path: Assets/Scenes/Level 1 Scenes/Duck Coloring Page.unity
-    guid: 4bba5e509abf24241b570d4db7024862
+    path: Assets/Scenes/Level 1 Scenes/Duck.unity
+    guid: 9a988111214063941b130e15a62b8602
   - enabled: 1
-    path: Assets/Scenes/Level 1 Scenes/Bee Coloring Page.unity
-    guid: f5f7b8793c725ad489ad8ecc2407528f
+    path: Assets/Scenes/Level 1 Scenes/BeeColoringPage.unity
+    guid: 91b22c3c3765cd8488f45c40e785b487
   - enabled: 1
-    path: Assets/Scenes/Level 1 Scenes/Macaw Coloring Page.unity
-    guid: d8e9c266edf142941b18dfded6668128
+    path: Assets/Scenes/Level 1 Scenes/MacawColoringPage.unity
+    guid: 363613f6cc074d541ac05e9e45ae1450
   - enabled: 1
     path: Assets/Scenes/Level 2 Scenes/Level 2.unity
     guid: e848ed059033ef8418f25df1be90f249
