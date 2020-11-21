@@ -773,6 +773,7 @@ GameObject:
   - component: {fileID: 1125737957}
   - component: {fileID: 1125737959}
   - component: {fileID: 1125737958}
+  - component: {fileID: 1125737960}
   m_Layer: 5
   m_Name: Basketball
   m_TagString: Untagged
@@ -835,6 +836,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125737956}
   m_CullTransparentMesh: 0
+--- !u!95 &1125737960
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125737956}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a29e5b1fb8e5b74bb8616895a8c82eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1320370243
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +866,7 @@ GameObject:
   - component: {fileID: 1320370244}
   - component: {fileID: 1320370246}
   - component: {fileID: 1320370245}
+  - component: {fileID: 1320370247}
   m_Layer: 5
   m_Name: Orange
   m_TagString: Untagged
@@ -908,6 +929,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320370243}
   m_CullTransparentMesh: 0
+--- !u!95 &1320370247
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320370243}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f3ef6cbaed0964488aa6d33a642e8a6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1868582688
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,6 +1025,7 @@ GameObject:
   - component: {fileID: 2015572518}
   - component: {fileID: 2015572520}
   - component: {fileID: 2015572519}
+  - component: {fileID: 2015572521}
   m_Layer: 5
   m_Name: Carrot
   m_TagString: Untagged
@@ -1047,3 +1088,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015572517}
   m_CullTransparentMesh: 0
+--- !u!95 &2015572521
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015572517}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 46ddd49083f7f0b4ba67996aafef5fea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 53317735}
   - component: {fileID: 53317737}
   - component: {fileID: 53317736}
+  - component: {fileID: 53317738}
   m_Layer: 5
   m_Name: Grapes
   m_TagString: Untagged
@@ -193,6 +194,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53317734}
   m_CullTransparentMesh: 0
+--- !u!95 &53317738
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53317734}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e4037d3b6b3ead041ac726e59c86702c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &110889879
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +290,7 @@ GameObject:
   - component: {fileID: 195948749}
   - component: {fileID: 195948751}
   - component: {fileID: 195948750}
+  - component: {fileID: 195948752}
   m_Layer: 5
   m_Name: Amethyst
   m_TagString: Untagged
@@ -332,6 +353,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195948748}
   m_CullTransparentMesh: 0
+--- !u!95 &195948752
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195948748}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e33d9dfd658504e49aa96b3b4ea641cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &214637250
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +486,7 @@ GameObject:
   - component: {fileID: 494381434}
   - component: {fileID: 494381436}
   - component: {fileID: 494381435}
+  - component: {fileID: 494381437}
   m_Layer: 5
   m_Name: Violet Flower
   m_TagString: Untagged
@@ -508,6 +549,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494381433}
   m_CullTransparentMesh: 0
+--- !u!95 &494381437
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494381433}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0b46f792a836624892bd3a021961c69, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &729263638
 GameObject:
   m_ObjectHideFlags: 0

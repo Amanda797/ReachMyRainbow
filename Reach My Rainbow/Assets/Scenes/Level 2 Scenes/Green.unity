@@ -437,6 +437,7 @@ GameObject:
   - component: {fileID: 601518116}
   - component: {fileID: 601518118}
   - component: {fileID: 601518117}
+  - component: {fileID: 601518119}
   m_Layer: 5
   m_Name: Lettuce
   m_TagString: Untagged
@@ -499,6 +500,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601518115}
   m_CullTransparentMesh: 0
+--- !u!95 &601518119
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601518115}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d009f9e142f36e4987916092404d0c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &643223212
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +756,7 @@ GameObject:
   - component: {fileID: 1121434947}
   - component: {fileID: 1121434949}
   - component: {fileID: 1121434948}
+  - component: {fileID: 1121434950}
   m_Layer: 5
   m_Name: Frog
   m_TagString: Untagged
@@ -798,6 +819,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121434946}
   m_CullTransparentMesh: 0
+--- !u!95 &1121434950
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121434946}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0aa93781905604e45b4b24207f027e71, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1348087353
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +952,7 @@ GameObject:
   - component: {fileID: 1938499158}
   - component: {fileID: 1938499160}
   - component: {fileID: 1938499159}
+  - component: {fileID: 1938499161}
   m_Layer: 5
   m_Name: Grass
   m_TagString: Untagged
@@ -974,6 +1015,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938499157}
   m_CullTransparentMesh: 0
+--- !u!95 &1938499161
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938499157}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9ee796e2bf5e7e04b955dc0acccddd50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2045780597
 GameObject:
   m_ObjectHideFlags: 0

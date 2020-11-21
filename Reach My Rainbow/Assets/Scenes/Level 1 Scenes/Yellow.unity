@@ -597,6 +597,7 @@ GameObject:
   - component: {fileID: 619283602}
   - component: {fileID: 619283604}
   - component: {fileID: 619283603}
+  - component: {fileID: 619283605}
   m_Layer: 5
   m_Name: Banana
   m_TagString: Untagged
@@ -612,7 +613,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619283601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1.3995482, y: 1.1835501, z: 1.1835501}
   m_Children: []
   m_Father: {fileID: 999382666}
@@ -659,6 +660,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619283601}
   m_CullTransparentMesh: 0
+--- !u!95 &619283605
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619283601}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8467ad4aa21f0f547844b5c268b736a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &862769896
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +836,7 @@ GameObject:
   - component: {fileID: 1051129835}
   - component: {fileID: 1051129837}
   - component: {fileID: 1051129836}
+  - component: {fileID: 1051129838}
   m_Layer: 5
   m_Name: Duck
   m_TagString: Untagged
@@ -878,6 +899,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051129834}
   m_CullTransparentMesh: 0
+--- !u!95 &1051129838
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051129834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 556bab898fef1a645a0b8cca6ab9a405, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1188068959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1175,7 @@ GameObject:
   - component: {fileID: 1949733590}
   - component: {fileID: 1949733592}
   - component: {fileID: 1949733591}
+  - component: {fileID: 1949733593}
   m_Layer: 5
   m_Name: Sun
   m_TagString: Untagged
@@ -1197,3 +1238,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949733589}
   m_CullTransparentMesh: 0
+--- !u!95 &1949733593
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949733589}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3f694c6bbbf9e0d4f8c8e6aa6b2c9132, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

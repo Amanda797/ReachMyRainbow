@@ -690,7 +690,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: d06dfc9ba8421324681b1e7e230693ba, type: 3}
   audiosource: {fileID: 211172355}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 8300000, guid: 68275f841b256704888256bb82949321, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &211172355
 AudioSource:
   m_ObjectHideFlags: 0
@@ -992,7 +996,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 7d03bee792b150a45ba8f8f184f087d9, type: 3}
   audiosource: {fileID: 409153432}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 8300000, guid: 58ecb3663beb7c84e9de89a165ef0677, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &409153432
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1214,7 +1222,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 2a451db3a41580b418884c3efaccb8c5, type: 3}
   audiosource: {fileID: 506648212}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 8300000, guid: 734929d29ce69b1438001cc791d976b0, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &506648212
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1804,7 +1816,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: ff7d35a87fe14d340b8d5369c1998aa3, type: 3}
   audiosource: {fileID: 1087259402}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &1087259402
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2346,7 +2362,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 5925d0010a7254a4c82e471fa77e045a, type: 3}
   audiosource: {fileID: 1308103018}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &1308103018
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2602,7 +2622,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: d47652fd1bb19dd45a631c0451bf0f53, type: 3}
   audiosource: {fileID: 1570326311}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 8300000, guid: 35b666b4e7740d440a693454f4df99d4, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &1570326311
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3004,7 +3028,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 9930ead838c9c9e43806fbb01fb6e7fb, type: 3}
   audiosource: {fileID: 1824412438}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 8300000, guid: 16e06e55413ecf34c98b94bf75065530, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &1824412438
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3514,7 +3542,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 9b16b563e76f0454b984baa03653b136, type: 3}
   audiosource: {fileID: 2070574968}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 8300000, guid: d9f6c67af9fb77d48b22393c8548db6d, type: 3}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!82 &2070574968
 AudioSource:
   m_ObjectHideFlags: 0

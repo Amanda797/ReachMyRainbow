@@ -524,6 +524,7 @@ GameObject:
   - component: {fileID: 349077905}
   - component: {fileID: 349077907}
   - component: {fileID: 349077906}
+  - component: {fileID: 349077908}
   m_Layer: 5
   m_Name: Whale
   m_TagString: Untagged
@@ -586,6 +587,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349077904}
   m_CullTransparentMesh: 0
+--- !u!95 &349077908
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349077904}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92fe5fb1613f5fc43a71437e33820439, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &669863064
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +720,7 @@ GameObject:
   - component: {fileID: 1003668866}
   - component: {fileID: 1003668868}
   - component: {fileID: 1003668867}
+  - component: {fileID: 1003668869}
   m_Layer: 5
   m_Name: WaterDrop
   m_TagString: Untagged
@@ -762,6 +783,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003668865}
   m_CullTransparentMesh: 0
+--- !u!95 &1003668869
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003668865}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a19d42fb36df724983ab271784c5dc0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1236280313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1175,7 @@ GameObject:
   - component: {fileID: 2039049924}
   - component: {fileID: 2039049926}
   - component: {fileID: 2039049925}
+  - component: {fileID: 2039049927}
   m_Layer: 5
   m_Name: Blueberry
   m_TagString: Untagged
@@ -1197,3 +1238,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039049923}
   m_CullTransparentMesh: 0
+--- !u!95 &2039049927
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039049923}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7f4a9a396d0df84f982cec128b087c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

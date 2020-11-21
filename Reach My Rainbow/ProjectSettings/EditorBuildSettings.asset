@@ -39,8 +39,44 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 Scenes/MacawColoringPage.unity
     guid: 363613f6cc074d541ac05e9e45ae1450
   - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/Green.unity
+    guid: 8556ef717f4858749b87032ad96422c1
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/Orange.unity
+    guid: 79237b2b2ba3ebd47a94bc770788713b
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/Purple.unity
+    guid: 329d974211eb0a345aeef0daa10d9b23
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/Secondary Colors.unity
+    guid: fa344ce08ecf4e3428f73d2fd1495833
+  - enabled: 1
     path: Assets/Scenes/Level 2 Scenes/Level 2.unity
     guid: e848ed059033ef8418f25df1be90f249
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/ChoosePage2.unity
+    guid: 918cd4e715c268a4fa3dbfff0d48a29f
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/CatColoringPage.unity
+    guid: d874142fdba91344485144914296794e
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/ChameleonColoringPage.unity
+    guid: 408bae99f227d8b49adedc6353927f0d
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scenes/SnakeColoringPage.unity
+    guid: 38ff1cfbb5a3d444c9f8df2d7ce10e4a
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Scenes/ChoosePage3.unity
+    guid: ddff9d5026f2d054a882ed8e7db57e17
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Scenes/DogColoringPage.unity
+    guid: 005452b67f4b35b43bfc596d7b8ca154
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Scenes/RedPandaColoringPage.unity
+    guid: 05eb9c248d4f19e48af120992051a6d5
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Scenes/ToucanColoringPage.unity
+    guid: 4cbc8625d16d6354cad58facdceff18b
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/Credits.unity
     guid: 972059841d4fe4545b7548441f323a33

@@ -639,7 +639,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 0ed045fe38b00244dbf6fe10fefd8b11, type: 3}
   audiosource: {fileID: 405370235}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &405370234
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -861,7 +865,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 7db7b215b0a2c97499a328206c3d97c3, type: 3}
   audiosource: {fileID: 422654235}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &422654234
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1223,7 +1231,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: d69e02977184ead4897044834bc10746, type: 3}
   audiosource: {fileID: 611425238}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &611425237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1445,7 +1457,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: d9226f7aaec01d445af8fd59e200693b, type: 3}
   audiosource: {fileID: 715889512}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &715889511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1667,7 +1683,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 4a8ca6f5048282f4e885b07f54814bb0, type: 3}
   audiosource: {fileID: 888878049}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &888878048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1889,7 +1909,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 0a88bb545ab4ade44abfd5d6fbf2e90d, type: 3}
   audiosource: {fileID: 955713068}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &955713067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2206,7 +2230,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: d980af5162184ed459ba93ccff861a6c, type: 3}
   audiosource: {fileID: 1057068929}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 0.5
+  wrongPauseTime: 0.5
 --- !u!61 &1057068928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2475,7 +2503,11 @@ MonoBehaviour:
   coloredSprite: {fileID: 21300000, guid: 0cde4cbcc4c4046449a674e9d2ed708b, type: 3}
   audiosource: {fileID: 1612455222}
   Right: {fileID: 8300000, guid: 880dce5958b07ca499df307c7e52a946, type: 3}
+  RightVoice: {fileID: 0}
   Wrong: {fileID: 8300000, guid: d092dfaf59d96b64aa425dbda2e125a0, type: 3}
+  WrongVoice: {fileID: 8300000, guid: f8047450b2337aa4089a7f8e611f078d, type: 3}
+  rightPauseTime: 2
+  wrongPauseTime: 0.5
 --- !u!61 &1612455221
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2693,6 +2725,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorType: 0
   colorOnLocation: {fileID: 0}
+--- !u!1 &1786723753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786723755}
+  - component: {fileID: 1786723754}
+  m_Layer: 0
+  m_Name: Scene Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1786723754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786723753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a25dea6ad7a87e4f924898c98661574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1786723755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786723753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 559.07574, y: 264.97507, z: -72.459816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907861441
 GameObject:
   m_ObjectHideFlags: 0
